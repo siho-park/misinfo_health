@@ -42,25 +42,27 @@ my-project/analysis/		     # Replication package folder
 ```
 
 ## Dataset
+
 1. baseline.dta: This dataset include first survey responses.
   
 2. midline.dta: This dataset include second survey responses.
 
 
 ## Description of scripts
-**run.do** is a master script that sets up the environment, creates output folders, and then calls other scripts.
 
-**0_programs.do**
-This scripts runs author-written codes for storing analysis results.
+- **run.do** is a master script that sets up the environment, creates output folders, and then calls other scripts.
 
-**1_clean_data.do**
-This script cleans the input data and creates the processed data ready for analysis.
+- **0_programs.do**
+  This scripts runs author-written codes for storing analysis results.
 
-**2_make_figures.do**
-This script creates figures, saving them to **results/figures**.
+- **1_clean_data.do**
+  This script cleans the input data and creates the processed data ready for analysis.
 
-**3_make_tables.do**
-This script creates tables, saving them to **results/tables**.
+- **2_make_figures.do**
+  This script creates figures, saving them to **results/figures**.
+
+- **3_make_tables.do**
+  This script creates tables, saving them to **results/tables**.
 
 
 

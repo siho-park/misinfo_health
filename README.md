@@ -7,6 +7,7 @@
 This repository contains data and code for the paper:
 
   **Title**: Misinformation Belief, Health Behavior, and Labor Supply during the COVID-19 Pandemic: Evidence from Tricycle Drivers in Philippines
+  
   **Authors**: Siho Park, Syngjoo Choi, Hyuncheol Bryant Kim, Yasuyuki Sawada, and Takashi Yamano
 
 

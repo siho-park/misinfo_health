@@ -4,9 +4,10 @@
 
 ## Overview
 
-This repository contains data and code for:
+This repository contains data and code for the paper:
 
-Title: Misinformation Belief, Health Behavior, and Labor Supply during the COVID-19 Pandemic: Evidence from Tricycle Drivers in Philippines
+Misinformation Belief, Health Behavior, and Labor Supply during the COVID-19 Pandemic: Evidence from Tricycle Drivers in Philippines
+
 Authors: Siho Park, Syngjoo Choi, Hyuncheol Bryant Kim, Yasuyuki Sawada, and Takashi Yamano
 
 
@@ -25,20 +26,20 @@ global TRICYCLE "C:/Users/jdoe/my-project/analysis"
 
 ## Directory structure
 ```text
-my-project/analysis/		# Replication package folder
-├── data			# Read-only (input) data
-├── processed			# Processed data
-├── results			# Output files
-│   ├── tables			# Tables (LaTeX)
-│   ├── figures			# Figures (png)
+my-project/analysis/		    # Replication package folder
+├── data			              # Read-only (input) data
+├── processed			          # Processed data
+├── results			            # Output files
+│   ├── tables			        # Tables (LaTeX)
+│   ├── figures			        # Figures (png)
 ├── scripts
-│   ├── libraries		# Add-on Stata packages
-│   ├── 0_programs.do		# Auxiliary code called by scripts
+│   ├── libraries		        # Add-on Stata packages
+│   ├── 0_programs.do		    # Auxiliary code called by scripts
 │   ├── 1_clean_data.do
 │   ├── 2_make_figures.do
 │   ├── 3_make_tables.do
-└── run.do			# Master script
-
+└── run.do			            # Master script
+```
 
 ## Dataset
 1. baseline.dta: This dataset include first survey responses.

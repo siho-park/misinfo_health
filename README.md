@@ -26,19 +26,19 @@ global TRICYCLE "C:/Users/jdoe/my-project/analysis"
 
 ## Directory structure
 ```text
-my-project/analysis/		    # Replication package folder
-├── data			              # Read-only (input) data
-├── processed			          # Processed data
-├── results			            # Output files
-│   ├── tables			        # Tables (LaTeX)
-│   ├── figures			        # Figures (png)
+my-project/analysis/		     # Replication package folder
+├── data			                # Read-only (input) data
+├── processed			           # Processed data
+├── results			             # Output files
+│   ├── tables			          # Tables (LaTeX)
+│   ├── figures			         # Figures (png)
 ├── scripts
 │   ├── libraries		        # Add-on Stata packages
 │   ├── 0_programs.do		    # Auxiliary code called by scripts
 │   ├── 1_clean_data.do
 │   ├── 2_make_figures.do
 │   ├── 3_make_tables.do
-└── run.do			            # Master script
+└── run.do			              # Master script
 ```
 
 ## Dataset
